@@ -1,0 +1,334 @@
+@charset "UTF-8";
+/*indexだけに適用するCSS*/
+
+html{
+    font-family: "UD Digi Kyokasho NK-R";
+}
+
+body{
+    /*background:linear-gradient(60deg,#3dfa7c,#E0F8F7);*/
+    background:linear-gradient(90deg,#AAAAAA80,#DDD,#AAAAAA80);
+    width: 1080px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #333;
+}
+
+#header{
+    text-align:center;
+    font-size: 100px;
+    background-color:#FFF;
+    border-radius:5px;
+}
+.header_img{
+    width:30%;
+    margin: 1% auto -2% auto;
+}
+
+.contents{
+    margin: 1% 5% 1% 5%;
+    border: solid 0.5px #333;
+}
+
+#wrap{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.wrap{
+    display: flex;
+}
+
+#contents{
+    flex-grow: 7;
+    background-color:#fafafa;
+    width: 70%;
+    margin: 10px 1% 10px 0px;
+    border-radius:5px;
+}
+#sidenavi{
+    flex-grow:3;
+    background-color: #FFF;
+    width:29.5%;
+    margin: 10px 0 10px 0;
+    border-radius:5px;
+}
+
+#footer{
+    /*background-color:#FF0080;*/
+    background-color:#EEEEEE;
+    clear:both;
+    margin-bottom:5%;
+    border-radius:5px;
+}
+
+.footer_img{
+    float: left;
+    width:5%; height:auto;
+}
+
+/*リンク*/
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:link{
+	color:#DD00EE;
+}
+a:visited{
+	color:#DD00EE;
+}
+a:hover{
+	color:#FF0080;
+}
+a:active{
+	color:#8000FF;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.img{/*記事内の画像*/
+    width:80%;
+}
+.img_center{/*記事内の画像を中央揃え*/
+    text-align:center;    
+}
+
+.midashi{/*見出し用の枠見たいなやつ*/
+    margin: 2%;
+    color:#FFF;
+    background-color:#00aaeb; /*rgb(0,170,235);*/
+    border-radius:3px;
+
+    line-height: 40px;
+    text-indent:1%;
+
+    font-family:"Yu Gothic";
+    font-weight:500;
+    font-size: 26px;
+}
+
+.kasen{/*文中に下線*/
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-color:#F00;
+}
+.tensen{/*文中に点線の下線*/
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color:#FF0080;
+}
+
+.share_link{/*SNSの記事シェアリンク*/
+    margin: 2% 0 1% 5%;
+}
+
+.twitter_midashi{/*見出し用の枠見たいなやつ*/
+    color:#FFF;
+    background-color:#00aaeb; /*rgb(0,170,235);マイナビブルー*/
+    line-height: 24px;
+    text-indent:1%;
+    font-family:"Yu Gothic";
+    font-weight:500;
+    font-size: 18px;
+}
+
+.twitter_timeline{/*Twitter　TimeLineのプロパティ*/
+    margin-right:1%;   
+    font-size:20px;
+}
+
+.kiji{
+    margin: 0 2% 0 2%;
+    line-height: 160%;
+    letter-spacing: 1px;
+}
+.bousen{
+    text-decoration: line-through;
+}
+.tree{
+    margin-left: 3%;
+    border-left: gray solid 3px;
+    color: rgb(112, 112, 112);
+}
+
+/*アーカイブのリンク関連*/
+.index_kiji{
+    margin: 20px 4% 25px 4%;
+}
+
+.index_kiji:hover{ /*サムネ・記事リンクにホバーしたときのエフェクト*/
+    /*background-color:#FF008080;*/
+    opacity:0.5;
+}
+
+.index_kiji_thumbnail{
+    float:left;
+    height: 100px;
+    padding-right:20px
+}
+.index_kiji_name{
+    padding: 30px 50px 10px 50px;
+    font-size:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ad{
+    margin-left:1.5%;
+}
+
+.frame_blog{
+    height:290px;
+    width:99.9%;
+    border:none;
+}
+.frame_category{
+    width:99.9%;
+    height:230px;
+    border:none;
+}
+.category_name{
+    font-size:25px;
+    color:#3b5998;
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+button, input, select, textarea {
+    font-family : inherit;
+    font-size : 100%;
+}
+
+/*Navigation*/
+nav{
+    margin-top:10px;
+    text-align: center;
+    text-decoration: none;
+    line-height:150%;
+    font-size:22px;
+}
+nav ul{
+    margin: 0 ;
+    padding: 0 ;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    width: 24.4%;
+    min-width: 90px;
+    background-color:#FFF;
+}
+nav li:not(:last-child){
+    border-right:2px solid #ddd;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+/*nav a.current{
+    color: #00B0F0;
+    border-bottom:2px solid #00B0F0;
+}*/
+nav li:hover{
+    /*background-color:#F7CB4D;*/
+    background-color:#A9F5BC;
+    color:#FF0080;
+}
+
+.link_buttom{
+    color: #FFF !important;
+    background: #00aadbcc;/*ボタン色*/
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    /*border-bottom: solid 4px #627295;*/
+    border-radius: 3px;
+}
+
+.link_buttom:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+
+/*スマホ用のCSS*/
+        @media (max-width:767px){
+            body{
+                width: 100%;
+                font-size:18px;
+            }
+            #wrap{
+                width: 100%;
+            }
+            .wrap{
+                display: block;
+            }
+            #contents{
+                width: 100%;
+                font-size:18px;
+                line-height:1.5em;
+                margin: 10px 1% 10px 0px;
+            }
+            #sidenavi{
+                display: none;
+                /*width: 98%;
+            }
+            
+            .twitter_timeline{
+                margin-right:1%;   
+                font-size:20px;
+                height: 300px;*/
+            }
+
+            #header{
+                text-align:center;
+                font-size: 30px;
+                margin:0 auto 0 auto;
+                /*background: linear-gradient(60deg,#E0F2F7,#e6e6FF,#E0F2F7)*/
+                background-color:#fafafa;
+            }
+            .midashi{
+                font-size:20px;
+            }    
+            .img{/*画像サイズ　横長の物は80％*/
+                width:50%;
+            }
+            .header_img{
+                width:50%;
+                margin: 1% auto -2% auto;
+            }
+
+            /*アーカイブのリンク関連*/
+            .index_kiji{
+                margin: 16px 4% 0 4%;
+            }
+
+            .index_kiji:hover{ /*サムネ・記事リンクにホバーしたときのエフェクト*/
+                opacity:0.5;
+            }
+
+            .index_kiji_thumbnail{
+                float:left;
+                height: 80px;
+                /*padding-right:20px*/
+            }
+            .index_kiji_name{
+                padding-left: 2px;
+                padding-top: 16px;
+                padding-right: 2px;
+                font-size:16px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            /*Navigation*/
+            nav{
+                display:none;
+            }
+        }

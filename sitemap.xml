@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://terrasea.jp/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/blog.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/contact.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/Training/protein/protein.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-05-25T10:13:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/linux/20200520/centos7_samba.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/linux/20200518/cisco_console_connect_minicom.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/linux/20200310/linux-memo.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/linux/20200307/helloworld.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/archive.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/blog/20200428.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-04-28T00:52:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/blog/20200110.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:10:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/blog/20200109.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:10:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/linux/whois/whois.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:08:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/Web/Script/Script.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-02-10T12:28:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/arduino/badusb01/badusb01.php</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/server/centos7_tomcat9/centos7_tomcat9.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:07:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/raspberry_pi/mydns/mydns.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:07:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/arduino/serial/serial_01.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-03-07T23:33:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/arduino/temp_sensor/20191030.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:09:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/arduino/ide_install/20191029.php</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/java/javafx_transition/javafx_transition.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:08:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/java/javafx_dynamic_msg/javafx_dynamic_msg.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-01-29T10:08:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/Web/Script/sample.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-02-10T12:12:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/Web/Script/sample2.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-02-10T12:12:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/arduino/ide_install/20191029.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-01-29T10:10:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/blog/2020/0606/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-01-29T10:10:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/arduino/20200611/arduino_error.php</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/linux/20200627/centos8_samba.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://terrasea.jp/pages/raspberry_pi/20200629/javaInstall.php</loc>
+  <priority>0.8</priority>
+</url>
+
+
+</urlset>

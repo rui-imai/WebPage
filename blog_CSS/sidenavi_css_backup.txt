@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/*SideNaviだけに適用するCSS*/
+
+html{
+    font-family: "UD Digi Kyokasho NK-R";
+}
+
+body{
+    width: 1080px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #333;
+}
+
+#header{
+    text-align:center;
+    font-size: 100px;
+    background-color:#EFFBF8;
+    /*background:linear-gradient(60deg,#E6E6E6,#F2F2F2,#E6E6E6);*/
+}
+.header_img{
+    width:30%;
+    margin: 1% auto -2% auto;
+}
+
+/*index.html*/
+.contents{/*indexの記事リンクの所*/
+    margin: 1% 5% 1% 5%;
+    border: solid 0.5px #333;
+ 
+}
+.new_kiji{
+    margin:0 0 0 1%;
+}
+.kiji_link{
+    display: inline-block;
+    width : 48%;
+    /*height:300px;*/
+   margin: 2% 0 2% 1%;
+  /*border: solid 1px #000;*/
+   text-align:center;
+}
+.kiji_link:hover{ /*サムネ・記事リンクにホバーしたときのエフェクト*/
+    opacity:0.5;
+}
+
+.kiji_link_name{
+    width:48%;
+    font-size:20px;
+}
+.kiji_link_name_flex{
+    width:48%;
+    font-size:20px;
+}
+.thumbnail{
+    width: 100%;    
+    margin: 0;
+}
+
+#wrap{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.wrap{
+    display: flex;
+}
+
+#contents{
+    flex-grow: 7;
+    background-color:#fafafa;
+    width: 70%;
+    margin: 10px 1% 10px 0px;
+}
+#sidenavi{
+    flex-grow:3;
+    background-color: #FFF;
+    width:29.5%;
+    margin: 10px 0 10px 0 ;
+}
+
+#footer{
+    /*background-color:#FF0080;*/
+    background-color:#00FF8080;
+    clear:both;
+    margin-bottom:5%;
+}
+
+.footer_img{
+    float: left;
+    width:5%; height:auto;
+}
+
+/*リンク*/
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:link{
+	color:#DD00EE;
+}
+a:visited{
+	color:#DD00EE;
+}
+a:hover{
+	color:#FF0080;
+}
+a:active{
+	color:#8000FF;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/*記事周辺*/
+.kiji_title{/*記事タイトル*/
+    color:#FF0080;
+    margin:5% 2% 3% 2%;
+    border-bottom: dashed 0.5px black;
+}
+
+.prettyprint ol.linenums > li {
+        list-style-type: decimal;  /*ソースに毎行行数を表示させるやつ*/
+}
+
+.img{/*記事内の画像*/
+    width:80%;
+}
+
+.img_center{/*記事内の画像を中央揃え*/
+    text-align:center;    
+}
+
+pre{/*ソースの所*/
+    max-width:  100%;
+    overflow: auto;
+    margin: 0 2% 0 2%;
+    /*border: 1px solid #FF0000;*/
+    font-size: 18px;
+}
+.program_name{/*ソースの名前を書くとこ*/
+    color:white;
+    float: left;
+    margin-left:2%;
+    /*background-color:rgb(51,51,51);*/
+    background-color: #333333;
+    font-weight: lighter;
+}
+
+.midashi{/*見出し用の枠見たいなやつ*/
+    margin: 2%;
+    background-color:#F2F2F2;
+    border-left:solid;
+    border-left-color: #DD0080;
+    border-left-width: 5px;
+
+    border-bottom:solid;
+    border-bottom-color:gray;
+    border-bottom-width:3px;
+
+    font-size: 26px;
+}
+
+.kasen{/*文中に下線*/
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-color:#F00;
+}
+
+.tensen{/*文中に点線の下線*/
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color:#FF0080;
+}
+
+.share_link{/*SNSの記事シェアリンク*/
+    margin: 2% 0 1% 5%;
+}
+
+.twitter_timeline{/*Twitter　TimeLineのプロパティ*/
+    margin-right:1%;   
+    font-size:20px;
+}
+
+.kiji{
+    margin: 0 2% 0 2%;
+    line-height: 160%;
+    letter-spacing: 1px;
+}
+.bousen{
+    text-decoration: line-through;
+}
+.tree{
+    margin-left: 3%;
+    border-left: gray solid 3px;
+    color: rgb(112, 112, 112);
+}
+.sidenavi_midashi{/*見出し用の枠見たいなやつ*/
+    color:#FFF;
+    background-color:#FF0080; /*rgb(0,170,235);マイナビブルー*/
+
+    /*margin-top: 5px;
+    /*border-radius:3px;
+    border-left:solid;
+    border-left-color:#FF0080;
+    border-left-width: 5px;
+    border-bottom:solid;
+    border-bottom-color:gray;
+    border-bottom-width:3px;*/
+    
+    line-height: 24px;
+
+    text-indent:1%;
+
+    font-family:"Yu Gothic";
+    font-weight:500;
+    font-size: 18px;
+}
+
+/*スマホ用のCSS*/
+@media (max-width:767px){
+    body{
+        width: 100%;
+        font-size:16px;
+    }
+    .wrap{
+        display: block;
+    }
+    #contents{
+        width: 98%;
+        font-size:16px;
+        line-height:1.5em;
+    }
+    #sidenavi{
+        display: none;
+        /*width: 98%;
+    }
+    
+    .twitter_timeline{
+        margin-right:1%;   
+        font-size:20px;
+        height: 300px;*/
+    }
+
+    #header{
+        text-align:center;
+        font-size: 30px;
+        /*background: linear-gradient(60deg,#E0F2F7,#e6e6FF,#E0F2F7)*/
+        background-color:#fafafa;
+
+    }
+    .midashi{
+        font-size:20px;
+    }    
+    .img{/*画像サイズ　横長の物は80％*/
+        width:50%;
+    }
+    .pre{/*記事内　ソースが記載されている所*/
+        font-size:20px;
+        width:90%;
+    }
+    .program_name{/*記事内　ソースが記載されている所の　ソース名の所*/
+        font-size:20px;
+    }
+    .header_img{
+        width:50%;
+        margin: 1% auto -2% auto;
+    }
+    .kiji_link_name,.kiji_link_name_flex{
+        font-size: 12px;
+    }
+
+    
+
+    
+}

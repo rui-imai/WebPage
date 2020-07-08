@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*SideNaviだけに適用するCSS*/
+
+html{
+    font-family: "UD Digi Kyokasho NK-R";
+}
+
+body{
+    margin: 0 auto;
+    font-size: 16px;
+    color: #333;
+}
+
+
+/*リンク*/
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:link{
+	color:#DD00EE;
+}
+a:visited{
+	color:#DD00EE;
+}
+a:hover{
+	color:#FF0080;
+}
+a:active{
+	color:#8000FF;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.sidenavi_midashi{/*見出し用の枠見たいなやつ*/
+    color:#FFF;
+    background-color:#00aaeb; /*rgb(0,170,235);マイナビブルー*/
+
+    /*margin-top: 5px;
+    /*border-radius:3px;
+    border-left:solid;
+    border-left-color:#FF0080;
+    border-left-width: 5px;
+    border-bottom:solid;
+    border-bottom-color:gray;
+    border-bottom-width:3px;*/
+    
+    line-height: 24px;
+
+    text-indent:1%;
+
+    font-family:"Yu Gothic";
+    font-weight:500;
+    font-size: 18px;
+}
+
+.category_link{
+    font-size:20px;
+    /*text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color:#FF0080;*/
+    margin-left:10px;
+    line-height:150%;
+}
+
+.sidenavi_contents{
+    margin: 0 5px;
+}
+
+/*スマホ用のCSS*/
+@media (max-width:767px){
+    body{
+        width: 100%;
+    }
+}

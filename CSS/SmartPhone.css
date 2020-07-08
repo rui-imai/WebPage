@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*スマホ用のCSS*/
+@media (max-width:767px){ 
+    html{
+        width:100%;
+    }
+    body{
+        clear: both;
+        width: 100%;
+        font-size:16px;
+    }
+    #contents{
+        width: 98%;
+        font-size:16px;
+        line-height:1.5em;
+    }
+    #header{
+        text-align:center;
+        font-size: 30px;
+        /*background: linear-gradient(60deg,#E0F2F7,#e6e6FF,#E0F2F7)*/
+        background-color:#FAFAFA;
+    }
+    #sidenavi{
+        display: none;
+    }
+
+    .midashi{
+        font-size:16px;
+    }
+    .pre{/*記事内　ソースが記載されている所*/
+        font-size:16px;
+        width:90%;
+    }
+    .program_name{/*記事内　ソースが記載されている所の　ソース名の所*/
+        font-size:16px;
+    }
+    .img{/*記事内の画像*/
+        width:50%;
+    }
+    .kanren_kiji_name{
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size:16px;
+    }
+    .mokuji_mokuji{/*記事内もくじ*/
+        font-size: 20px;
+        color:#CC00EE;
+        margin:15px 0 0 2%;
+    }
+
+    .youtube{
+        text-align: center;
+        width:350px;
+        height:197px;
+    }
+    
+    /*Navigation*/
+    nav{
+        display:none;
+    }
+    table{
+        width:95%;
+    }
+    table th{
+        margin:auto 0 auto 0;
+    }
+    
+}

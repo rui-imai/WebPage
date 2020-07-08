@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} terrasea\.sakura\.ne\.jp
+RewriteRule ^(.*)$ https://terrasea.jp/$1 [R=301,L]
+
+ErrorDocument 404 /blog/404.html
+
+ 

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*サイト全体*/
+html{
+    font-family: "UD Digi Kyokasho NK-R";
+}
+body{
+    background:linear-gradient(90deg,#AAAAAA80,#DDD,#AAAAAA80);
+    /*background:linear-gradient(90deg,#E0F8F7,#81DAF5,#E0F8F7); /*青系*/
+    /*background:linear-gradient(60deg,#3dfa7c,#E0F8F7);*/
+    width:1080px;
+    margin : 0 auto;
+    font-size : 20px;
+    color:#333;
+}
+
+#wrap{
+    width: 100%;
+    margin: 0px auto;
+}
+.wrap{
+    display: flex;
+}
+
+#header{
+    text-align:center;
+    font-size: 100px;
+    background-color:#FFF;
+    border-radius:5px;
+}
+
+.header_img{
+    width: 30%;
+    margin: 1% auto -2% auto;
+}
+
+#contents{/*記事のメインコンテンツ*/
+    flex-grow:7;/*sidenaviとの比率 7:3*/
+    background-color:#fafafa;
+    width: 70%;
+    /*border: dashed 1px #999;*/
+    margin: 10px 1% 10px 0px;
+    border-radius:5px;
+}
+
+#sidenavi{
+    flex-grow:3; /*contentsとの比率 3:7*/
+    background-color: #FFF;
+    width: 29.5%;
+    /*border: dashed 1px #999;*/
+    margin: 10px 0px 10px 0px;
+    border-radius:5px;
+}
+
+#footer{
+    /*background-color:#ff66cc;*/
+    background-color:#EEEEEE;
+    /*border: dashed 1px #999;*/
+    clear:both;
+    margin-bottom:5%;
+    border-radius:5px;
+}
+
+.iframe{
+    width:80%;
+    height:auto;
+    margin-left:5%;
+}
+
+.footer_img{
+    float: left;
+    width:5%; height:auto;
+}
+
+button, input, select, textarea {
+    font-family : inherit;
+    font-size : 100%;
+}
+/*リンク*/
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:link{
+	color:#CC00EE;
+}
+a:visited{
+	color:#CC00EE;
+}
+a:hover{
+	color:#FF0080;
+}
+a:active{
+	color:#8000FF;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/*Navigation*/
+nav{
+    margin-top:10px;
+    text-align: center;
+    text-decoration: none;
+    line-height:150%;
+    font-size:22px;
+}
+nav ul{
+    margin: 0 ;
+    padding: 0 ;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    width: 24.4%;
+    min-width: 90px;
+    background-color:#FFF;
+}
+nav li:not(:last-child){
+    border-right:2px solid #ddd;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+/*nav a.current{
+    color: #00B0F0;
+    border-bottom:2px solid #00B0F0;
+}*/
+nav li:hover{
+    /*background-color:#F7CB4D;*/
+    background-color:#A9F5BC;
+    color:#FF0080;
+}
+
+
+
+
+
+
+
+
+

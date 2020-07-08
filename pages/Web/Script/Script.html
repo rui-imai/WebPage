@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+	<html lang="ja">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" content="JavaScript,Script,Web,ダイアログ,TerraSea"/>
+	<meta name="googlebot" content="all" />
+	<link rel="shortcut icon" href="../../../image/favicon.png">
+	<link rel="StyleSheet" href="../../../CSS/common.css" >
+	<link rel="StyleSheet" href="../../../CSS/Style.css">
+	<link rel="StyleSheet" href="../../../CSS/SmartPhone.css">
+	<link rel="StyleSheet" href="../../../CSS/change1.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Caveat|Vollkorn&display=swap">
+	<meta name="discription" content="アダルトサイトで良くみるあのダイアログを作ってみました。JavaScriptで動いてるみたいです。"/>
+	<title>アダルトサイトで良く出るアレを作りたい！-Terra Sea-</title>
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&skin=desert"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<header id="header">
+			<a href="https://terrasea.jp/"><img src="../../../image/TerraSea_header.png" class="header_img"></a>
+		</header>
+
+		<nav>
+            <ul>
+            <a href="https://terrasea.jp"><li>TOP</li></a>
+            <a href="https://terrasea.jp/blog.php"><li>Blog</li></a>
+            <a href="https://terrasea.jp/contact.php"><li>問い合わせ</li></a>
+            <a href="https://twitter.com/Terra__Sea" target="_blank"><li>Twitter</li></a>
+            </ul>
+        </nav>
+
+		<div class="wrap">
+
+		<div id="contents">
+			<h2 class="kiji_title"><span class="bousen">アダルトサイト</span>で良く出るアレを作りたい！</h2>
+			
+			<div class="date">更新：2020/02/05</div>
+			<div class="img_center">
+				<img src="images/top.png"　alt="TOP画像" class="img_80">
+			</div>
+
+			<div class="midashi"></div>
+            <div class="midashi">はじめに</div>
+			<div class="kiji">
+				当サイトのBadUSBの記事でも用いている、最近はあまり見ることも無くなってきましたが、昔は見ることも多かった
+				アダルトサイトで間違った所をクリックすると出るあのダイアログを作ってみました。
+			</div><br>
+
+			<div class="mokuji">
+				<span class="mokuji_mokuji">もくじ</span>
+				<div class="mokuji_contents">
+					<a href="Script.html#1">&#149;そもそもアレって何</a><br>
+					<a href="Script.html#2">&#149;ソース</a><br>
+					<a href="Script.html#3">&#149;おわりに</a><br>
+				</div>
+			</div><br>
+			
+
+			<div class="midashi" id="1">そもそもアレって何</div>
+			<div class="kiji">
+				<!--画像-->
+				よくアダルトサイト等で見られる、あなたのPCはウィルスに感染しています&#033;みたいなやつありますよね&#063;<br>
+				そもそもアレはJavaScriptで動いてるみたいです。<br>
+				JavaScriptとは&#063;って方は今後JavaScriptについての記事を作成予定ですので、
+				お待ちください&#033;<br>
+            </div>
+            
+            <div class="midashi" id="2">ソース</div>
+            <div class="kiji">
+                JavaScriptのソースはこのようになっています。
+				<pre class="prettyprint linenums lang-javascript pre">window.confirm("表示させたい文字列");		
+</pre>
+			 ソース内の&#034;window.confirm&#034;がウィンドウ上にダイアログを表示させるモノとなっており<br>
+			 <pre class="prettyprint linenums lang-javascript pre">var result = window.confirm("表示させたい文字列");
+if(result==ture){
+	OK時の動作
+}else{
+	キャンセル時の動作
+}
+</pre>
+             このようにif文に入れるとtureの場合&#034;OK&#034;をクリックしたときの動作<br>
+			 falseの場合&#034;キャンセル&#034;をクリックしたときの動作になります。<br>
+			 <a href="sample.html" >実際の挙動確認はこちら</a><br><br>
+
+
+             また<pre class="prettyprint linenums lang-javascript pre">window.alert("表示させたい文字列")</pre>
+			 にすると、キャンセルの表示が無く&#034;OK&#034;のみのモノになります。<br>
+			 <a href="sample2.html" >実際の挙動確認はこちら</a><br><br>
+
+			また文字列の中に&#092;nの改行コードを入れることで改行をすることもできますし、<br>
+			window.confrimやwindow.alertの&#034;window&#034;は省略することができます。<br>
+			 
+</div>
+			<div class="midashi" id="3">おわりに</div>
+			<div class="kiji">
+				このように割と簡単に、ダイアログは作ることができるので、<br>
+				皆さん使ってみてくださいね&#040;&#063;&#041;<br>
+			</div><br>
+
+			<div class="midashi">
+				関連記事
+			</div>
+				
+			<div style="clear:both;"></div><br><br>
+			
+			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">
+				Tweet
+			</a>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<div class="go_top_page"><a href="https://terrasea.jp/" title="Terra Sea TOPページに戻る">TOPページに戻る</a></div>
+		</div>
+		
+		<div id="sidenavi">
+			<iframe src="../../../php/Side_NewPage.php" class="frame_newpage"></iframe>
+			<iframe src="../../../php/blog_Side_NewPage.php" class="frame_blog"></iframe>
+			<div class="twitter_midashi">Twitter @Terra__Sea</div>
+			<div class="share_link">  
+				<a class="twitter-timeline" href="https://twitter.com/Terra__Sea?ref_src=twsrc%5Etfw" data-border-color="#ff0080" data-height="400px">
+					Tweets by Terra__Sea
+				</a>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+
+
+			<br>
+		</div>
+		</div>
+
+		<footer id="footer"><br> 
+			<img src="../../../image/favicon.png" class="footer_img">
+			-Terra Sea-<br>
+			しがない専門学生2人が独自に書いているブログ<br>
+			魚好きのNさんと 筋肉のCさんが書いております。<br><br><br>   
+		</footer>
+	</div>
+</body>
+
+</html>
